@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:text="Android Kotlin Container Tutorial"/>
+
+
+    <Button
+            android:text="KOTLIN LISTVIEW"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"/>
+
+    <Button
+            android:text="KOTLIN CUSTOM LISTVIEW"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"/>
+
+    <Button
+            android:text="KOTLIN GRIDVIEW"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"/>
+
+    <Button
+            android:text="KOTLIN RECYCLER VIEW"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"/>
+
+    <Button
+            android:text="KOTLIN SEARCH VIEW"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"/>
+
+
+</LinearLayout>

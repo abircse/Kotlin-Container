@@ -8,6 +8,8 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
 
     lateinit var lvbutton: Button
+    lateinit var lvbutton1: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,5 +21,14 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this, listView::class.java))
         }
+
+        lvbutton1 = findViewById(R.id.button2)
+
+        lvbutton1.setOnClickListener {
+
+            startActivity(Intent(this, CustomListView::class.java))
+        }
+
+
     }
 }

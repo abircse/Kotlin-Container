@@ -1,5 +1,6 @@
 package com.kotlin.intermediatetask.kotlinintermediatetask
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
@@ -55,9 +56,19 @@ class CustomListView : AppCompatActivity() {
 
         lv.setOnItemClickListener { parent, view, position, id ->
 
+            // first line is to get NAME which already set into adapter
             val itemAtPos = parent.getItemAtPosition(position)
+            // Second line is to get position id
             val itemIdAtPos = parent.getItemIdAtPosition(position)
             Toast.makeText(this, "Click on item at $itemAtPos its item id $itemIdAtPos", Toast.LENGTH_LONG).show()
+
+           intent = Intent(this, CustomListViewDetails::class.java)
+            intent.putExtra("image", imageId[position])
+            intent.putExtra("name", language[position])
+            intent.putExtra("description", description[position])
+            startActivity(intent)
+
+
 
         }
 

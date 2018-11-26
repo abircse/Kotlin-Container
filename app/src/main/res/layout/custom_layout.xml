@@ -37,7 +37,7 @@
         <TextView
                 android:id="@+id/name"
                 android:layout_width="match_parent"
-                tools:text = "Nayeem Shiddiki Abir"
+                tools:text = "JAVA"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimary"
                 android:layout_height="wrap_content"/>
@@ -45,7 +45,7 @@
         <TextView
                 android:id="@+id/desig"
                 android:layout_width="match_parent"
-                tools:text = "Lead Software Engineer"
+                tools:text = "One most Plpuler language"
                 android:textSize="16sp"
                 android:layout_height="wrap_content"/>
 

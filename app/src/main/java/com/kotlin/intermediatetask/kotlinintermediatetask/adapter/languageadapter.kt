@@ -14,7 +14,7 @@ import com.kotlin.intermediatetask.kotlinintermediatetask.R
 class languageadapter (
     private val context: Activity,
     private val Name: Array<String>,
-    private val Designation: Array<String>,
+    private val Description: Array<String>,
     private val Image: Array<Int>)
     : ArrayAdapter<String>(context, R.layout.custom_layout, Name) {
 
@@ -26,11 +26,11 @@ class languageadapter (
 
         val IMAGE = rowView.findViewById(R.id.imageview) as ImageView
         val NAME = rowView.findViewById(R.id.name) as TextView
-        val DESIGNATION = rowView.findViewById(R.id.desig) as TextView
+        val DESCRIPTION = rowView.findViewById(R.id.desig) as TextView
 
         IMAGE.setImageResource(Image[position])
         NAME.text = Name[position]
-        DESIGNATION.text = Designation[position]
+        DESCRIPTION.text = Description[position]
 
         return rowView
     }

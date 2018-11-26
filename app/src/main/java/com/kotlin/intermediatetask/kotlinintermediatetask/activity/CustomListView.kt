@@ -1,10 +1,11 @@
-package com.kotlin.intermediatetask.kotlinintermediatetask
+package com.kotlin.intermediatetask.kotlinintermediatetask.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
 import android.widget.Toast
+import com.kotlin.intermediatetask.kotlinintermediatetask.R
 import com.kotlin.intermediatetask.kotlinintermediatetask.adapter.languageadapter
 
 class CustomListView : AppCompatActivity() {
@@ -27,7 +28,7 @@ class CustomListView : AppCompatActivity() {
     )
 
     val imageId = arrayOf<Int>(
-        R.mipmap.ic_launcher_round,
+        R.drawable.testimage,
         R.mipmap.ic_launcher_round,
         R.mipmap.ic_launcher_round,
         R.mipmap.ic_launcher_round,

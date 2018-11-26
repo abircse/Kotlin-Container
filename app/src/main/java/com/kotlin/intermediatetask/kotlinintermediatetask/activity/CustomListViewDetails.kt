@@ -1,9 +1,10 @@
-package com.kotlin.intermediatetask.kotlinintermediatetask
+package com.kotlin.intermediatetask.kotlinintermediatetask.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import com.kotlin.intermediatetask.kotlinintermediatetask.R
 
 class CustomListViewDetails : AppCompatActivity() {
 

@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".listView">
+        <activity android:name=".activity.listView">
         </activity>
-        <activity android:name=".CustomListView">
+        <activity android:name=".activity.CustomListView">
         </activity>
-        <activity android:name=".CustomListViewDetails">
+        <activity android:name=".activity.CustomListViewDetails">
         </activity>
     </application>
 

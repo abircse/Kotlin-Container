@@ -1,10 +1,10 @@
-package com.kotlin.intermediatetask.kotlinintermediatetask
+package com.kotlin.intermediatetask.kotlinintermediatetask.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Adapter
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import com.kotlin.intermediatetask.kotlinintermediatetask.R
 
 class listView : AppCompatActivity() {
 

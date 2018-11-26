@@ -22,6 +22,10 @@
         </activity>
         <activity android:name=".activity.CustomListViewDetails">
         </activity>
+        <activity android:name=".activity.RecyclerView">
+        </activity>
+        <activity android:name=".activity.RecyclerViewDetails">
+        </activity>
     </application>
 
 </manifest>

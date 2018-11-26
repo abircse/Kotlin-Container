@@ -5,12 +5,15 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.kotlin.intermediatetask.kotlinintermediatetask.activity.CustomListView
+import com.kotlin.intermediatetask.kotlinintermediatetask.activity.RecyclerView
 import com.kotlin.intermediatetask.kotlinintermediatetask.activity.listView
 
 class MainActivity : AppCompatActivity() {
 
     lateinit var lvbutton: Button
     lateinit var lvbutton1: Button
+    lateinit var lvbutton2: Button
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +33,15 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this, CustomListView::class.java))
         }
+
+
+        lvbutton2 = findViewById(R.id.button4)
+
+        lvbutton2.setOnClickListener {
+
+            startActivity(Intent(this, RecyclerView::class.java))
+        }
+
 
 
     }
